@@ -1,4 +1,11 @@
-body {
-    /* background-image: url(image/background.png); */
+/* body {
+    background-image: url(image/background.png);
+    overflow: hidden;
+} */
+
+body { 
+    -ms-overflow-style: none; 
     margin: 0;
 }
+
+::-webkit-scrollbar { display: none; }
